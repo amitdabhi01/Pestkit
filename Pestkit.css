@@ -16,7 +16,7 @@
 .container{
     max-width: 1320px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .d-flex{
     display: flex;
@@ -35,7 +35,7 @@
     align-items: center;
 }
 .box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
 }
 
@@ -418,6 +418,14 @@
 
 
 /* -----------------------our pricing section start-------------------------- */
+.box1{
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.box1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 30px black;
+}
 .bg-pricing{
     background-color: #f5f6f6;
 }
@@ -529,9 +537,137 @@
     margin: 0px 10px;
 }
 /* -----------------------our pricing section start-------------------------- */
-
-
+.team-img img{
+    width: 100%;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.name{
+    background-color: #fdf001;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    padding: 16px 0px;
+}
+.name h2{
+    text-align: center;
+    font-family: "Nunito",sans-serif;
+    font-size: 24px;
+}
+.name p{
+    text-align: center;
+    font-family: "Nunito",sans-serif;
+    font-size: 16px;
+}
 /* -----------------------our pricing section start-------------------------- */
+
+
+/* -----------------------Footer1 start-------------------------- */
+.footer-img{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Pestkit_img/carousel-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+.footer-padding{
+    padding: 48px 12px;
+}
+.box3{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.box3 h4{
+    color: #fff;
+    margin: 0px 0px 24px;
+    /* text-align: center; */
+    font-size: 24px;
+    font-family: "Nunito",sans-serif;
+}
+.box3 p{
+    color: #ffffffa6;
+    margin: 0px 0px 16px;
+    font-size: 18px;
+}
+.box3 a{
+    text-decoration: none;
+    color: #ffffffa6;
+    display: block;
+    width: 100%;
+    line-height: 2;
+    font-size: 18px;
+    /* font-family: "Nunito",sans-serif; */
+}
+.footer-a a:hover{
+    color: #fdf001;
+}
+.border{
+    border-bottom: 1px solid #ffffffa6;
+    padding: 8px;
+}
+.d-flex i:hover{
+    color: #fdf001;
+}
+.logo i:hover{
+    color: #111;
+}
+.box3 .fa-check{
+    color: #ffffffa6;
+}
+.d-flex .fa-location-dot{
+    margin: 0px 10px;
+}
+.d-flex .fa-phone{
+    margin: 0px 10px;
+}
+.d-flex .fa-envelope{
+    margin: 0px 10px;
+}
+/* -----------------------Footer1 end-------------------------- */
+
+
+/* -----------------------Footer2 start-------------------------- */
+.footer-2{
+    width: 100%;
+    background-color: #111;
+}
+.box .pest{
+    color: #fdf001;
+}
+.logo{
+    border: 1px solid #fdf001;
+    /* padding: 10px; */
+    border-radius: 50%;
+    background-color: #fdf001;
+    margin: 15px;
+    width: 44px;
+    height: 44px;
+}
+.logo i{
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 p{
+    color: white;
+    font-size: 18px;
+}
+.box4 a{
+    text-decoration: none;
+    color: #fdf001;
+    border-bottom: 1px solid white;
+}
+.box4 a:hover{
+    color: #948d05fa;
+}
+.justify-content{
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+.justify-content-end{
+    display: flex;
+    justify-content: end;
+}
+/* -----------------------Footer2 end-------------------------- */
 .mb-100{
     margin-bottom: 100px;
 }
