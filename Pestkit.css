@@ -150,9 +150,11 @@
     text-decoration: none;
     background-color: #fdf001;
     color: #111;
-    padding: 20px;
+    padding: 20px 50px;
     border-radius: 10px;
     width: 100%;
+    display: block;
+    text-align: center;
 }
 /* -----------------------service section end-------------------------- */
 
@@ -408,6 +410,38 @@
 .fa-comments{
     margin: 0px 10px;
 }
+
+.blog-sliding .slick-next{
+    z-index: 3;
+    top: -20px;
+    right: 84px;
+}
+
+.blog-sliding .slick-next:before{
+    color: #111;
+    font-size: 24px;
+    /* border: 1px solid red; */
+    padding: 15px 30px;
+    background-color: #fdf001 !important;
+    border-radius: 40px 5px 5px 40px;
+    font-family: none !important;
+}
+
+.blog-sliding .slick-prev{
+    z-index: 2;
+    top: -20px;
+    left: 17px;
+}
+
+.blog-sliding .slick-prev:before{
+    color: #111;
+    font-size: 24px;
+    /* border: 1px solid red; */
+    padding: 15px 30px;
+    background-color: #fdf001 !important;
+    border-radius: 5px 40px 40px 5px;
+    font-family: none !important;
+}
 /* -----------------------our blog section end-------------------------- */
 
 
@@ -606,6 +640,41 @@
     font-size: 16px;
 }
 /* -----------------------Our Team section start-------------------------- */
+
+
+/* -----------------------Testimonial section start-------------------------- */
+.Testimonial-sliding .slick-next{
+    z-index: 3;
+    top: 0;
+    right: 0;
+}
+
+.Testimonial-sliding .slick-next:before{
+    color: #111;
+    font-size: 24px;
+    /* border: 1px solid red; */
+    padding: 15px 30px;
+    background-color: #fdf001 !important;
+    border-radius: 40px 5px 5px 40px;
+    font-family: none !important;
+}
+
+.Testimonial-sliding .slick-prev{
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.Testimonial-sliding .slick-prev:before{
+    color: #111;
+    font-size: 24px;
+    /* border: 1px solid red; */
+    padding: 15px 30px;
+    background-color: #fdf001 !important;
+    border-radius: 5px 40px 40px 5px;
+    font-family: none !important;
+}
+/* -----------------------Testimonial section end-------------------------- */
 
 
 /* -----------------------Footer1 start-------------------------- */
